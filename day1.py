@@ -43,7 +43,7 @@ def solvePart1():
     position = 50      # starting position
     countZero = 0      # how much yimes we end at 0
 
-    with open("input.txt") as file:
+    with open("input1.txt") as file:
         for line in file:
             line = line.strip()
 
@@ -74,7 +74,7 @@ def solvePart2():
     position = 50   # starting position
     totalHits = 0   # total hits at 0 (during AND after rotation)
 
-    with open("input.txt") as file:
+    with open("day1.txt") as file:
         for line in file:
             line = line.strip()
 
